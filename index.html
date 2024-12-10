@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2 Boutique Store</title>
+
+    <!-- external css -->
+    <link rel="stylesheet" href="/backpack/styles/style.css">
+
+    <!-- tailwindcss cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- fontawesome kit -->
+    <script src="https://kit.fontawesome.com/1694914d74.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+        </div>
+
+    <!-- start header -->
+    <header class="bg-[#FFFBF0] px-4">
+        <!-- start navbar -->
+        <nav class="max-w-screen-xl mx-auto py-7">
+            <div class="max-w-full flex justify-between items-center">
+                <img class="w-56" src="./backpack/images/syikmer.png" alt="logo" width="10" height="auto">
+                <p>
+                </p>
+                <div id="menu" class="hidden md:block">
+                    <ul class="flex gap-14 font-medium text-[#3C3C3C]">
+                        <li><a class="hover:underline" href="#home">Home</a></li>
+                        <li><a class="hover:underline" href="#product">Product</a></li>
+                        <li><a class="hover:underline" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Menu Responsif -->
+            <div id="mobile-menu" class="hidden md:hidden bg-white w-full p-4">
+                <ul class="flex flex-col gap-4 font-medium text-[#3C3C3C]">
+                    <li><a class="hover:underline" href="#home">Home</a></li>
+                    <li><a class="hover:underline" href="#product">Product</a></li>
+                    <li><a class="hover:underline" href="#about-us">About Us</a></li>
+                    <li><a class="hover:underline" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- end navbar -->
+
+        <!-- start hero section -->
+        <section
+            class="max-w-screen-xl pt-10 flex justify-center mx-auto gap-6 md:gap-0 lg:gap-6 text-center md:text-left items-center pb-24 flex-col md:flex-row">
+            <div class="flex-1 flex justify-center items-center">
+                <div class="w-full flex flex-col items-center">
+                    <div>
+                        <h1
+                            class="text-5xl md:text-6xl lg:text-7xl font-black uppercase font-bebas text-[#363958] w-[450px]">
+                            Your Style,<br />
+                            <span class="text-[#76C27E]">Your Story!</span>
+                        </h1>
+                        <p class="text-color mt-2 mb-6 max-w-[450px]">Ciptakan Pesonamu dengan Koleksi Terbaik</p>
+                        <button class="bg-[#2A1E59] px-5 py-[12px] rounded-md text-white uppercase font-semibold"><i
+                                class="fa-solid fa-cart-shopping max-w-[170px]"></i> &nbsp; Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1 flex justify-center items-center md:justify-center">
+                <div class="relative flex justify-center items-center">
+                    <img class="w-4/5 max-w-[400px]" src="./backpack/images/green.png" alt="">
+                    <img class="w-4/5 max-w-[400px] absolute" src="./backpack/images/dress1.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- end hero section -->
+    </header>
+    <!-- end header -->
+
+    <!-- start main section -->
+    <main class="max-w-screen-xl mx-auto my-12 px-4">
+        <!-- casual backpack -->
+        <section id="product">
+            <h2 class="uppercase text-4xl font-bebas text-[#363958] mb-4">Product</h2>
+
+            <!-- products -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+                <!-- product 1 -->
+                <div class="shadow-lg rounded-lg p-4 pb-1">
+                    <div class="bg-[#F1F1F1] rounded-lg p-5 flex justify-center">
+                        <img class="w-80" src="./backpack/images/awa-1.png" alt="backpack-1">
+                    </div>
+                    <div class="my-3">
+                        <h3 class="text-heading text-2xl font-semibold">Blossom Blouse Choco</h3>
+                        <div class="flex justify-between items-center">
+                            <h2 class="text-[#76C27E] font-bold text-3xl">Rp 75.000</h2>
+                            <a 
+                        href="https://app.midtrans.com/payment-links/1733769049168" 
+                        class="bg-[#2A1E59] px-5 py-[12px] rounded-md text-white uppercase font-semibold flex items-center justify-center">
+                        <i class="fa-solid fa-cart-shopping"></i> &nbsp; Buy Now
+                    </a>
+                    </div>
+                    </div>
+                </div>
+                <!-- product 2 -->
+<div class="shadow-lg rounded-lg p-4 pb-1">
+    <div class="bg-[#F1F1F1] rounded-lg p-5 flex justify-center">
+        <img class="w-80" src="./backpack/images/awa-2.png" alt="backpack-1">
+    </div>
+    <div class="my-3">
+        <h3 class="text-heading text-2xl font-semibold">Luna Brown Dress</h3>
+        <div class="flex justify-between items-center">
+            <h2 class="text-[#76C27E] font-bold text-3xl">Rp 150.000</h2>
+            <button class="bg-[#2A1E59] px-5 py-[12px] rounded-md text-white uppercase font-semibold">
+                <a href="https://app.midtrans.com/payment-links/1733769077993" class="text-white">
+                    <i class="fa-solid fa-cart-shopping max-w-[170px]"></i> &nbsp; Buy Now
+                </a>
+            </button>
+        </div>
+    </div>
+</div>
+<!-- product 3 -->
+<div class="shadow-lg rounded-lg p-4 pb-1">
+    <div class="bg-[#F1F1F1] rounded-lg p-5 flex justify-center">
+        <img class="w-80" src="./backpack/images/awa-3.png" alt="backpack-3">
+    </div>
+    <div class="my-3">
+        <h3 class="text-heading text-2xl font-semibold">Casual Blue Blouse</h3>
+        <div class="flex justify-between items-center">
+            <h2 class="text-[#76C27E] font-bold text-3xl">Rp 85.000</h2>
+            <button class="bg-[#2A1E59] px-5 py-[12px] rounded-md text-white uppercase font-semibold">
+                <a href="https://app.midtrans.com/payment-links/1733769160174" class="text-white">
+                    <i class="fa-solid fa-cart-shopping max-w-[170px]"></i> &nbsp; Buy Now
+                </a>
+            </button>
+        </div>
+    </div>
+</div>
+
+        </section>
+
+        
+
+           <!-- products -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+    <!-- product 4 -->
+    <div class="shadow-lg rounded-lg p-4 pb-1">
+        <div class="bg-[#F1F1F1] rounded-lg p-5 flex justify-center">
+            <img class="w-80" src="./backpack/images/awa-4.png" alt="backpack-4">
+        </div>
+        <div class="my-3">
+            <h3 class="text-heading text-2xl font-semibold">Dark Grey Shirt</h3>
+            <div class="flex justify-between items-center">
+                <h2 class="text-[#76C27E] font-bold text-3xl">Rp 95.000</h2>
+                <a href="https://app.midtrans.com/payment-links/1733769291690" class="bg-[#2A1E59] px-5 py-[12px] rounded-md text-white uppercase font-semibold">
+                    <i class="fa-solid fa-cart-shopping max-w-[170px]"></i> &nbsp; Buy Now
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- product 5 -->
+    <div class="shadow-lg rounded-lg p-4 pb-1">
+        <div class="bg-[#F1F1F1] rounded-lg p-5 flex justify-center">
+            <img class="w-80" src="./backpack/images/awa-5.png" alt="backpack-5">
+        </div>
+        <div class="my-3">
+            <h3 class="text-heading text-2xl font-semibold">Baby Pink Shirt</h3>
+            <div class="flex justify-between items-center">
+                <h2 class="text-[#76C27E] font-bold text-3xl">Rp 75.000</h2>
+                <a href="https://app.midtrans.com/payment-links/1733769484478" class="bg-[#2A1E59] px-5 py-[12px] rounded-md text-white uppercase font-semibold">
+                    <i class="fa-solid fa-cart-shopping max-w-[170px]"></i> &nbsp; Buy Now
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- product 6 -->
+    <div class="shadow-lg rounded-lg p-4 pb-1">
+        <div class="bg-[#F1F1F1] rounded-lg p-5 flex justify-center">
+            <img class="w-80" src="./backpack/images/awa-6.png" alt="backpack-6">
+        </div>
+        <div class="my-3">
+            <h3 class="text-heading text-2xl font-semibold">Glam Dress Flower</h3>
+            <div class="flex justify-between items-center">
+                <h2 class="text-[#76C27E] font-bold text-3xl">Rp 145.000</h2>
+                <a href="https://app.midtrans.com/payment-links/1733769432316" class="bg-[#2A1E59] px-5 py-[12px] rounded-md text-white uppercase font-semibold">
+                    <i class="fa-solid fa-cart-shopping max-w-[170px]"></i> &nbsp; Buy Now
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- product 7 -->
+    <div class="shadow-lg rounded-lg p-4 pb-1">
+        <div class="bg-[#F1F1F1] rounded-lg p-5 flex justify-center">
+            <img class="w-80" src="./backpack/images/awa-7.png" alt="backpack-7">
+        </div>
+        <div class="my-3">
+            <h3 class="text-heading text-2xl font-semibold">Flora Belle Knitwear</h3>
+            <div class="flex justify-between items-center">
+                <h2 class="text-[#76C27E] font-bold text-3xl">Rp 80.000</h2>
+                <a href="https://app.midtrans.com/payment-links/1733791197060" class="bg-[#2A1E59] px-5 py-[12px] rounded-md text-white uppercase font-semibold">
+                    <i class="fa-solid fa-cart-shopping max-w-[170px]"></i> &nbsp; Buy Now
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- product 8 -->
+    <div class="shadow-lg rounded-lg p-4 pb-1">
+        <div class="bg-[#F1F1F1] rounded-lg p-5 flex justify-center">
+            <img class="w-80" src="./backpack/images/awa-8.png" alt="backpack-8">
+        </div>
+        <div class="my-3">
+            <h3 class="text-heading text-2xl font-semibold">Circle Chic Cardigan</h3>
+            <div class="flex justify-between items-center">
+                <h2 class="text-[#76C27E] font-bold text-3xl">Rp 80.000</h2>
+                <a href="https://app.midtrans.com/payment-links/1733791270263" class="bg-[#2A1E59] px-5 py-[12px] rounded-md text-white uppercase font-semibold">
+                    <i class="fa-solid fa-cart-shopping max-w-[170px]"></i> &nbsp; Buy Now
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- product 9 -->
+    <div class="shadow-lg rounded-lg p-4 pb-1">
+        <div class="bg-[#F1F1F1] rounded-lg p-5 flex justify-center">
+            <img class="w-80" src="./backpack/images/awa-9.png" alt="backpack-9">
+        </div>
+        <div class="my-3">
+            <h3 class="text-heading text-2xl font-semibold">Green Charm Cardigan</h3>
+            <div class="flex justify-between items-center">
+                <h2 class="text-[#76C27E] font-bold text-3xl">Rp 85.000</h2>
+                <a href="https://app.midtrans.com/payment-links/1733791385642" class="bg-[#2A1E59] px-5 py-[12px] rounded-md text-white uppercase font-semibold">
+                    <i class="fa-solid fa-cart-shopping max-w-[170px]"></i> &nbsp; Buy Now
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- product 10 -->
+    <div class="shadow-lg rounded-lg p-4 pb-1">
+        <div class="bg-[#F1F1F1] rounded-lg p-5 flex justify-center">
+            <img class="w-80" src="./backpack/images/awa-10.png" alt="backpack-10">
+        </div>
+        <div class="my-3">
+            <h3 class="text-heading text-2xl font-semibold">Vintage Green Hoodie</h3>
+            <div class="flex justify-between items-center">
+                <h2 class="text-[#76C27E] font-bold text-3xl">Rp 125.000</h2>
+                <a href="https://app.midtrans.com/payment-links/1733791443418" class="bg-[#2A1E59] px-5 py-[12px] rounded-md text-white uppercase font-semibold">
+                    <i class="fa-solid fa-cart-shopping max-w-[170px]"></i> &nbsp; Buy Now
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- product 11 -->
+    <div class="shadow-lg rounded-lg p-4 pb-1">
+        <div class="bg-[#F1F1F1] rounded-lg p-5 flex justify-center">
+            <img class="w-80" src="./backpack/images/awa-11.png" alt="backpack-11">
+        </div>
+        <div class="my-3">
+            <h3 class="text-heading text-2xl font-semibold">Beige Wool Scarf</h3>
+            <div class="flex justify-between items-center">
+                <h2 class="text-[#76C27E] font-bold text-3xl">Rp 100.000</h2>
+                <a href="https://app.midtrans.com/payment-links/1733791507104" class="bg-[#2A1E59] px-5 py-[12px] rounded-md text-white uppercase font-semibold">
+                    <i class="fa-solid fa-cart-shopping max-w-[170px]"></i> &nbsp; Buy Now
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- product 12 -->
+    <div class="shadow-lg rounded-lg p-4 pb-1">
+        <div class="bg-[#F1F1F1] rounded-lg p-5 flex justify-center">
+            <img class="w-80" src="./backpack/images/awa-12.png" alt="backpack-12">
+        </div>
+        <div class="my-3">
+            <h3 class="text-heading text-2xl font-semibold">Dark Brown Sneakers</h3>
+            <div class="flex justify-between items-center">
+                <h2 class="text-[#76C27E] font-bold text-3xl">Rp 150.000</h2>
+                <a href="https://app.midtrans.com/payment-links/1733791600858" class="bg-[#2A1E59] px-5 py-[12px] rounded-md text-white uppercase font-semibold">
+                    <i class="fa-solid fa-cart-shopping max-w-[170px]"></i> &nbsp; Buy Now
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- products -->
+        
+
+
+
+        <!-- info section -->
+        <section class="mt-28 md:mt-32 lg:mt-40">
+            <div class="flex justify-between items-center flex-col-reverse lg:flex-row gap-10">
+                <div class="flex-1 gap-6 flex flex-col w-full">
+                    <div
+                        class="lg:max-w-[495px] flex gap-3 md:gap-6 items-center shadow-lg rounded-lg p-6 flex-col md:flex-row">
+                        <img class="w-20" src="./backpack/images/house.png" alt="house">
+                        <div class="text-center md:text-left">
+                            <h3 class="text-2xl font-bold text-heading mb-2">Find the Perfect Fit</h3>
+                            <p class="max-w-[275px] text-color">Everybody is different, which is why we offer styles for
+                                every
+                                body.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="lg:max-w-[495px] flex gap-3 md:gap-6 items-center shadow-lg rounded-lg p-6 flex-col md:flex-row">
+                        <img class="w-20" src="./backpack/images/box.png" alt="box">
+                        <div class="text-center md:text-left">
+                            <h3 class="text-2xl font-bold text-heading mb-2">Free Exchanges</h3>
+                            <p class="max-w-[275px] text-color">One of the many reasons you can shop
+                                with peace of mind.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="lg:max-w-[495px] flex gap-3 md:gap-6 items-center shadow-lg rounded-lg p-6 flex-col md:flex-row">
+                        <img class="w-20" src="./backpack/images/question.png" alt="question">
+                        <div class="text-center md:text-left">
+                            <h3 class="text-2xl font-bold text-heading mb-2">Contact Our Seller</h3>
+                            <p class="max-w-[275px] text-color">They are here to help you. That's quite
+                                literally what we pay them for.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1">
+                    <img src="./backpack/images/baju1.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- end main section -->
+
+    <!-- start footer -->
+    <footer class="mt-24 bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <section id="contact"></section>
+            <!-- Copyright -->
+            <small class="block font-mono mb-4 text-sm text-gray-400">
+                Copyright &copy; 2023 | Penguin Fashion
+            </small>
+    
+            <!-- Social Media Links -->
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="https://facebook.com" target="_blank" class="text-white hover:text-blue-500 transition duration-300">
+                    <i class="fab fa-facebook-f"></i> Facebook
+                </a>
+                <a href="https://twitter.com" target="_blank" class="text-white hover:text-blue-400 transition duration-300">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+                <a href="https://instagram.com" target="_blank" class="text-white hover:text-pink-500 transition duration-300">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+            </div>    
+            <!-- Contact Information -->
+            <div class="text-sm mb-4 text-gray-400">
+                <p>Email: <a href="mailto:info@penguinfashion.com" class="hover:underline">info@penguinfashion.com</a></p>
+                <p>Phone: +123-456-7890</p>
+                <p>Address: 123 Penguin Street, Fashion City, 45678</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Tambahkan Font Awesome untuk ikon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+    <!-- end footer -->
+</body>
+
+</html>
